@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'vato';
+    src: url('./KINO40.ttf');
+}
+.bmenu{
+    padding: 0px;
+    margin: -50px 0 10px 0;
+    position: relative;
+}
+.bmenu li{
+    font-size: 35px;
+    display: block;
+}
+.bmenu li a{
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 2px #fff;
+	color: #fff;
+	padding: 5px 20px;
+	margin: 2px;
+	background: rgba(0,0,0,0);
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.bmenu:hover li a{
+	text-shadow: 0px 0px 10px #fff;
+	color: transparent;
+	background: rgba(0,0,0,0);
+}
+.bmenu li a:hover{
+	background: rgba(0,0,0,0);
+	text-shadow: 0px 0px 1px #fff;
+}
+.name {
+    position: relative;
+    font-family: 'vato';
+    color: #912132;
+    font-size: 150px;
+	/*text-shadow: 0px 0 0 #fff;*/
+    left: 170px;
+    width: calc(100% - 170px);
+}
+.name-about{
+    position: relative;
+    color: #912132;
+    font-family: 'vato';
+    font-size: 100px;
+    left: 170px;
+    top: 50px;
+}
+.links {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
