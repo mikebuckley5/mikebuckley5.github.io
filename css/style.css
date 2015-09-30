@@ -45,15 +45,38 @@
     width: calc(100% - 170px);
 }
 .name-about{
+    position: fixed;
+    color: #912132;
+    font-family: 'vato';
+    font-size: 90px;
+    bottom: 4%;
+    right: 9%;
+}
+.about-title {
     position: relative;
     color: #912132;
     font-family: 'vato';
-    font-size: 100px;
-    left: 170px;
-    top: 50px;
+    left: 20%;
+    top: 30px;
+    font-size: 150px;
 }
 .links {
     position: fixed;
     top: 30px;
     right: 30px;
+}
+.about-frame {
+    position: absolute;
+    background-color: rgba(178, 178, 178, 0.1);
+    box-shadow: 0 0 20px rgba(178, 178, 178, 0.2);
+    font-size: 18px;
+    color: #b2b2b2;
+    padding: 3%;
+    filter: blur(5px);
+    top: 25%;
+    left: 4%;
+    width: 46%;
+    margin-bottom: 5%;
+    /*border: 1px dashed orange;*/
+    border-radius: 15px;
 }
