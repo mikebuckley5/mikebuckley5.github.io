@@ -59,6 +59,7 @@
     left: 20%;
     top: 30px;
     font-size: 150px;
+    width: 80%;
 }
 .links {
     position: fixed;
@@ -79,4 +80,10 @@
     margin-bottom: 5%;
     /*border: 1px dashed orange;*/
     border-radius: 15px;
+}
+.work-in-progress {
+    position: relative;
+    left: 15%;
+    width: 85%;
+    font-size: 30px;
 }
